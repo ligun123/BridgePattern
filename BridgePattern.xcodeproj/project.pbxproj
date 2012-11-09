@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28D9F9D164BC3670085A782 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28D9F9C164BC3670085A782 /* main.cpp */; };
+		B28D9F9F164BC3670085A782 /* BridgePattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B28D9F9E164BC3670085A782 /* BridgePattern.1 */; };
+		B28D9FA7164BC4C20085A782 /* Abstraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28D9FA5164BC4C20085A782 /* Abstraction.cpp */; };
+		B28D9FAA164BC4F20085A782 /* RefinedAbstraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28D9FA8164BC4F20085A782 /* RefinedAbstraction.cpp */; };
+		B28D9FAD164BC50E0085A782 /* Implementor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28D9FAB164BC50E0085A782 /* Implementor.cpp */; };
+		B28D9FB0164BC52E0085A782 /* ConcreteImplementorA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28D9FAE164BC52E0085A782 /* ConcreteImplementorA.cpp */; };
+		B28D9FB3164BC5490085A782 /* ConcreteImplementorB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28D9FB1164BC5490085A782 /* ConcreteImplementorB.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B28D9F96164BC3670085A782 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B28D9F9F164BC3670085A782 /* BridgePattern.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B28D9F98164BC3670085A782 /* BridgePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BridgePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28D9F9C164BC3670085A782 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B28D9F9E164BC3670085A782 /* BridgePattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BridgePattern.1; sourceTree = "<group>"; };
+		B28D9FA5164BC4C20085A782 /* Abstraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Abstraction.cpp; sourceTree = "<group>"; };
+		B28D9FA6164BC4C20085A782 /* Abstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abstraction.h; sourceTree = "<group>"; };
+		B28D9FA8164BC4F20085A782 /* RefinedAbstraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RefinedAbstraction.cpp; sourceTree = "<group>"; };
+		B28D9FA9164BC4F20085A782 /* RefinedAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefinedAbstraction.h; sourceTree = "<group>"; };
+		B28D9FAB164BC50E0085A782 /* Implementor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Implementor.cpp; sourceTree = "<group>"; };
+		B28D9FAC164BC50E0085A782 /* Implementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementor.h; sourceTree = "<group>"; };
+		B28D9FAE164BC52E0085A782 /* ConcreteImplementorA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteImplementorA.cpp; sourceTree = "<group>"; };
+		B28D9FAF164BC52E0085A782 /* ConcreteImplementorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementorA.h; sourceTree = "<group>"; };
+		B28D9FB1164BC5490085A782 /* ConcreteImplementorB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteImplementorB.cpp; sourceTree = "<group>"; };
+		B28D9FB2164BC5490085A782 /* ConcreteImplementorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementorB.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28D9F95164BC3670085A782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28D9F8D164BC3670085A782 = {
+			isa = PBXGroup;
+			children = (
+				B28D9F9B164BC3670085A782 /* BridgePattern */,
+				B28D9F99164BC3670085A782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28D9F99164BC3670085A782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28D9F98164BC3670085A782 /* BridgePattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28D9F9B164BC3670085A782 /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				B28D9F9C164BC3670085A782 /* main.cpp */,
+				B28D9F9E164BC3670085A782 /* BridgePattern.1 */,
+				B28D9FA5164BC4C20085A782 /* Abstraction.cpp */,
+				B28D9FA6164BC4C20085A782 /* Abstraction.h */,
+				B28D9FA8164BC4F20085A782 /* RefinedAbstraction.cpp */,
+				B28D9FA9164BC4F20085A782 /* RefinedAbstraction.h */,
+				B28D9FAB164BC50E0085A782 /* Implementor.cpp */,
+				B28D9FAC164BC50E0085A782 /* Implementor.h */,
+				B28D9FAE164BC52E0085A782 /* ConcreteImplementorA.cpp */,
+				B28D9FAF164BC52E0085A782 /* ConcreteImplementorA.h */,
+				B28D9FB1164BC5490085A782 /* ConcreteImplementorB.cpp */,
+				B28D9FB2164BC5490085A782 /* ConcreteImplementorB.h */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28D9F97164BC3670085A782 /* BridgePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28D9FA2164BC3670085A782 /* Build configuration list for PBXNativeTarget "BridgePattern" */;
+			buildPhases = (
+				B28D9F94164BC3670085A782 /* Sources */,
+				B28D9F95164BC3670085A782 /* Frameworks */,
+				B28D9F96164BC3670085A782 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePattern;
+			productName = BridgePattern;
+			productReference = B28D9F98164BC3670085A782 /* BridgePattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28D9F8F164BC3670085A782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Kira;
+			};
+			buildConfigurationList = B28D9F92164BC3670085A782 /* Build configuration list for PBXProject "BridgePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B28D9F8D164BC3670085A782;
+			productRefGroup = B28D9F99164BC3670085A782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28D9F97164BC3670085A782 /* BridgePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28D9F94164BC3670085A782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28D9F9D164BC3670085A782 /* main.cpp in Sources */,
+				B28D9FA7164BC4C20085A782 /* Abstraction.cpp in Sources */,
+				B28D9FAA164BC4F20085A782 /* RefinedAbstraction.cpp in Sources */,
+				B28D9FAD164BC50E0085A782 /* Implementor.cpp in Sources */,
+				B28D9FB0164BC52E0085A782 /* ConcreteImplementorA.cpp in Sources */,
+				B28D9FB3164BC5490085A782 /* ConcreteImplementorB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B28D9FA0164BC3670085A782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B28D9FA1164BC3670085A782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B28D9FA3164BC3670085A782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B28D9FA4164BC3670085A782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28D9F92164BC3670085A782 /* Build configuration list for PBXProject "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28D9FA0164BC3670085A782 /* Debug */,
+				B28D9FA1164BC3670085A782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28D9FA2164BC3670085A782 /* Build configuration list for PBXNativeTarget "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28D9FA3164BC3670085A782 /* Debug */,
+				B28D9FA4164BC3670085A782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28D9F8F164BC3670085A782 /* Project object */;
+}
